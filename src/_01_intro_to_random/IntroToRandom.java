@@ -5,6 +5,8 @@ package _01_intro_to_random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
@@ -12,6 +14,7 @@ public class IntroToRandom {
 		
 		//3   Now to make num random. 
 		//3a. Create an object of the Random class, Hint: Random ran = new Random()
+		Random ran = new Random()
 		
 		//3b. Next, set the value of num, using .nextInt() to get a random number from the Random object
 		
@@ -23,7 +26,7 @@ public class IntroToRandom {
 		//6. Challenge: Limit the value of num to be between -222 and 88
 
 		//1. Print out the value of num
-		
+		JOptionPane.showMessageDialog(null, num);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
